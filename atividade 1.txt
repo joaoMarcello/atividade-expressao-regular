@@ -1,0 +1,38 @@
+Fazer a lista de exercício em um arquivo texto, converter em pdf e fazer o upload com as respostas.
+
+1.Escreva expressões regulares para os seguintes padrões
+
+a) Todas as strings alfabéticas;
+
+b) Todas as strings alfabéticas minúsculas terminando em a b;
+
+c) Todas as strings do alfabeto a; b de modo que cada a seja imediatamente precedido por e imediatamente seguido por a b;
+
+
+d)Corresponder à palavra "viagra" e a alguns dos disfarces que remetentes de spam usam, como: vi@gra ; v1agra; v1@gra; v!@gr@
+
+
+e) Corresponder a qualquer endereço de e-mail dos domínios nca.ufma  e ufpi.edu.br
+
+f) Corresponder a qualquer endereço IP com a variação de 192.168.1.0 a 192.168.1.255.
+
+g) Corresponder aos números de ordem de compra (PO) de sua empresa. Esse número tem vários formatos possíveis, como: PO nn-nnnnn; PO-nn-nnnn; PO# nn nnnn; PO#nn-nnnn;  PO nnnnnn
+
+2.Escreva expressões regulares para os seguintes padões. Por “palavra”, queremos dizer uma string alfabética separada de outras= palavras por espaços em branco, qualquer pontuação relevante, quebras de linha e assim por diante.
+
+a) Todas as strings com duas palavras repetidas consecutivas (por exemplo, “Humbert Humbert” e “o o”);
+
+
+b) Todas as strings que começam no início da linha com um inteiro e terminam no final da linha com uma palavra;
+
+
+c) Todas as strings que contêm a palavra gruta e a palavra raven (mas não, por exemplo, palavras como grutas que contêm apenas a palavra gruta);
+
+
+
+Entrega:
+Sugere-se que a entrega seja feita em um Jupyter Notebook que contém as  implementações das atividades, assim como as explicações das soluções.
+
+Deve ser entregue também  um arquivo PDF  descrevendo as soluções de cada atividade, bem como as entradas  utilizadas e as saídas obtidas.  Neste documento deve estar as  estátisticas solicitadas na ultima tarefa realizada com um dos textos.
+
+Sugere-se a utilização da biblioteca NLTK para a resolução das atividades. Caso uma biblioteca externa for utilizada, indique-a.
